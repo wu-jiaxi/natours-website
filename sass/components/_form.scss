@@ -1,0 +1,16 @@
+.form{
+    &__group{
+
+    }
+    &__input{
+        font-size: 1.5rem;
+        padding: 1.5rem 2rem;
+        border-radius: 2px;
+        background-color: rbga( $color-white, .5);
+        border: none;
+    }
+
+    &__label {
+
+    }
+}
