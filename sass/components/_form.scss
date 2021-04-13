@@ -10,8 +10,21 @@
     border-radius: 2px;
     background-color: rbga($color-white, 0.5);
     border: none;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
   }
 
+  &__input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
+    border-bottom: 3px solid $color-primary;
+  }
+
+  &::-webkit-input-placeholder {
+    color: $color-grey-dark-2;
+  }
+  
   &__label {
   }
 }
